@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245,245,220);
+  background: linear-gradient(45deg, rgba(245,245,220,1) 0%, rgba(255,222,173,1) 100%);
+}
+
+a {
+  color: darkolivegreen;
+}
+
+h1,h2 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1.title,h2.coming-soon {
+  color: #123456;
+}
+
+h1.title {
+  font-size: 3em;
+}
+
+h2.coming-soon {
+  font-weight: normal;
+}
